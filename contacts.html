@@ -23,10 +23,23 @@
 
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contacts.html">Contacts</a>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+            </div>
+            <a href="contacts.html">
+                <button>Contact Us</button>
+            </a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="hamburg" height="32" width="34" viewBox="0 0 448 512">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+            </svg>
+        </div>
     </nav>
+
     <div class="contact-section">
         <div class="contact-info">
             <div><i class="fa-solid fa-location-dot"></i>Address, City, Country</div>
@@ -34,10 +47,11 @@
             <div><i class="fa-solid fa-phone"></i>+00 0000 000 000</div>
             <div><i class="fa-solid fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
         </div>
+
         <div class="contact-form">
-            <h2>Contact Us</h2>
+            <h1>Contact Us</h1>
             <form class="contact" action="" method="post">
-                <input type="text" name="name" value="text-box" placeholder="Your Name" required>
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
                 <input type="email" name="email" class="text-box" placeholder="Your Email" required>
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
                 <input type="submit" name="submit" class="send-btn" value="Send">
