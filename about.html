@@ -2,50 +2,66 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
     <title>About</title>
 </head>
 
 <body>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contacts.html">Contacts</a>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+            </div>
+            <a href="contacts.html">
+                <button>Contact Us</button>
+            </a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="hamburg" height="32" width="34" viewBox="0 0 448 512">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+            </svg>
+        </div>
     </nav>
     <h1>About Us</h1>
 
-    <p class="1desc">Welcome to Home of the Best Developers – your ultimate destination for innovative software
-        development,
-        cutting-edge technology, and exceptional digital solutions.
+    <p class="desc-1">Welcome to Home of the Best Developers – your ultimate destination for innovative software
+        development, cutting-edge technology, and exceptional digital solutions.
         Our platform brings together the brightest minds in the industry,
         offering you unparalleled expertise and a collaborative space
         where creativity and technical prowess meet.</p>
-
-    <p class="2desc">At Home of the Best Developers,
+    
+    <p class="desc-2">At Home of the Best Developers,
         we believe in building more than just code.
         We build strong partnerships with our clients,
         understanding their unique needs and delivering customized solutions that make a real impact.
         From web development to mobile apps, enterprise software,
         and everything in between, we pride ourselves on pushing boundaries and delivering excellence.</p>
 
-    <section>
-        <div class="members"> <img src="1avatar.png" alt="">
-            <p class="name">Lawrence Dan C. Dupang</p>
-            <p class="des">Project Leader</p>
-        </div>
-        <div class="members"> <img src="2avatar.png" alt="">
-            <p class="name">Bryll B. escurel</p>
-            <p class="des">HTML Head</p>
-        </div>
-        <div class="members"> <img src="3avatar.png" alt="">
-            <p class="name">Justin Aeron c. Saladaga</p>
-            <p class="des">CSS Head</p>
-        </div>
-        <div class="members"> <img src="4avatar.png" alt="">
-            <p class="name">Martin Joseph Carreon</p>
-            <p class="des">CSS Head</p>
-        </div>
-    </section>
+        <section class="members-section">
+            <div class="members"> <img src="1avatar.png" alt="">
+                <p class="name">Lawrence Dan C. Dupang</p>
+                <p class="des">Project Leader</p>
+            </div>
+            <div class="members"> <img src="2avatar.png" alt="">
+                <p class="name">Bryll B. Escurel</p>
+                <p class="des">HTML Head</p>
+            </div>
+            <div class="members"> <img src="3avatar.png" alt="">
+                <p class="name">Justin Aeron C. Saladaga</p>
+                <p class="des">CSS Head</p>
+            </div>
+            <div class="members"> <img src="4avatar.png" alt="">
+                <p class="name">Martin Joseph Carreon</p>
+                <p class="des">CSS Head</p>
+            </div>
+        </section>
 
 
 
